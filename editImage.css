@@ -1,0 +1,76 @@
+#tempCanvas {
+	display: none;
+}
+
+#canvas {
+	margin: 0px auto;
+	overflow-x: auto !important;
+	overflow-y: auto !important;
+}
+
+.canvas-content {
+	width: 100%;
+	max-height: 90vh;
+	padding: 20px;
+}
+
+.button-center {
+	text-align: center;
+}
+
+#image-edit {
+	width: calc(100% - 40px);
+	height: 100%;
+	max-height: calc(90vh - 160px);
+	overflow-x: scroll;
+	overflow-y: scroll;
+	text-align: center;
+}
+
+.blurring {
+	margin-right: 20px;
+}
+
+.stampImage {
+	font-size: 35px;
+	color: red;
+}
+
+.fa-tint {
+	font-size: 35px;
+	padding-top: 10px;
+}
+
+.red {
+	color: red;
+}
+
+.blue {
+	color: #00BFFF;
+}
+
+.listTerms {
+	position: absolute;
+	bottom: 0px;
+	left: 20%;
+	display: none;
+}
+
+.listTerms ul {
+	width: 500px
+}
+
+.listTerms ul li {
+	float: left;
+	padding: 10px;
+	list-style: none;
+}
+
+.listTerms img {
+	width: 50px;
+	height: 50px;
+}
+
+#image-edit {
+	position: relative;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Konva Image Resize Demo</title>
+<style>
+
+</style>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="editImage.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="drawImage.js"></script>
+<script src="FastBlur.js"></script>
+</head>
+<body onload="init2()">
+	<div id="image-edit">
+		<canvas id="canvas">
+			Browser not support canvas
+		</canvas>
+
+		<canvas id="tempCanvas">
+			Browser not support canvas
+		</canvas>
+		<div class="listTerms">
+			<ul>
+				<li><img width="50" height="50"
+					src="http://image.prntscr.com/image/73958852631d4a079049832223c9e3b4.png" /></li>
+				<li><img width="50" height="50"
+					src="http://image.prntscr.com/image/2025e7ba63284457b0d2242ad50678e9.png" /></li>
+				<li><img width="50" height="50"
+					src="http://image.prntscr.com/image/18f3262c16bc4daabc7181e92147474e.png" /></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="button-center">
+
+		<i class="fa fa-plus-circle stampImage red"></i> <i
+			class="fa fa-tint blurImage red"></i> <span class="blurring">ぼかし加工</span>
+		<input id="undo" type="button" value="Undo" class="myButton" /> <input
+			type="button" value="Save" class="myButton" /> <br>
+		<br>
+		<p>画像の一部を「ぼかす」ことができます。 人の顔や氏名などの個人情報を隠したい場合にお使いください。</p>
+	</div>
+	<script>
+
+  </script>
+
+</body>
+</html>
